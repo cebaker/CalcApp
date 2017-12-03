@@ -282,8 +282,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         }
                         else{
                             i = i + str_diff;
-                            while(i < full_input.length() - str_diff) {
-                                full_input.setCharAt(i, full_input.charAt(i));
+                            while(i < full_input.length() ) {
+                                full_input.setCharAt(i - str_diff, full_input.charAt(i ) );
                                 j++;
                                 i++;
                             }
