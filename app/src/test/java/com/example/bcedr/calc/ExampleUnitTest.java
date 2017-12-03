@@ -1,4 +1,4 @@
-package com.example.bcedr.calcapp;
+package com.example.bcedr.calc;
 
 import org.junit.Test;
 
